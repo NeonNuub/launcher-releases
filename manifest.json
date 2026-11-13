@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "serial": 7,
-  "generatedAt": "2026-11-12T23:13:50.5571712+00:00",
+  "serial": 8,
+  "generatedAt": "2026-11-13T21:24:31.5719693+00:00",
   "publisher": "NeonNuub",
   "apps": [
     {
@@ -16,7 +16,31 @@
         "productivity"
       ],
       "accentColor": "#6E8BFF",
-      "featured": true
+      "featured": true,
+      "latest": {
+        "version": "1.0.0",
+        "releaseDate": "2026-11-13T21:24:16+00:00",
+        "releaseNotes": "Autoclicker 1.0.0",
+        "package": {
+          "url": "https://github.com/NeonNuub/autoclicker-releases/releases/download/v1.0.0/Autoclicker-win-Setup.exe",
+          "size": 13764375,
+          "sha256": "7d511c134c5686084ed3cabd4794cc5f4784ed07eef1ab51c953e47af39f62a8",
+          "type": "exe"
+        },
+        "requirements": {
+          "minWindowsBuild": 17763,
+          "architectures": [
+            "x64"
+          ]
+        },
+        "install": {
+          "executable": "{LocalAppData}\\Autoclicker\\Autoclicker.exe",
+          "requiresElevation": false,
+          "uninstallDisplayName": "Autoclicker",
+          "createShortcut": true,
+          "timeoutMinutes": 20
+        }
+      }
     },
     {
       "id": "capture-studio",
