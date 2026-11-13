@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "serial": 7,
+  "generatedAt": "2026-11-12T23:13:50.5571712+00:00",
+  "publisher": "NeonNuub",
+  "apps": [
+    {
+      "id": "autoclicker",
+      "name": "Autoclicker",
+      "tagline": "Configurable mouse automation with hotkeys.",
+      "description": "Automate repetitive clicking with precise intervals, click patterns and global hotkeys.",
+      "category": "Utilities",
+      "tags": [
+        "automation",
+        "mouse",
+        "productivity"
+      ],
+      "accentColor": "#6E8BFF",
+      "featured": true
+    },
+    {
+      "id": "capture-studio",
+      "name": "Capture Studio",
+      "tagline": "Record and stream your games without getting in their way.",
+      "description": "A recording and streaming studio with scenes, sources, an audio mixer and transitions. Captures games, displays and windows with system audio and microphone to H.264 \u002B AAC MP4, streams over RTMP/RTMPS, and keeps a replay buffer with global hotkeys. Built on its own native Direct3D 11 / Media Foundation engine.",
+      "category": "Media",
+      "tags": [
+        "recording",
+        "streaming",
+        "capture"
+      ],
+      "accentColor": "#F0607A",
+      "featured": true,
+      "latest": {
+        "version": "0.5.0",
+        "releaseDate": "2026-11-12T22:28:52+00:00",
+        "releaseNotes": "Capture Studio 0.5.0",
+        "package": {
+          "url": "https://github.com/NeonNuub/Recording-releases/releases/download/v0.5.0/CaptureStudio-win-Setup.exe",
+          "size": 42398060,
+          "sha256": "f9c853358acb9c85045de9e1194a1dc58ad43af556a3d732da0a2f22d09c12a0",
+          "type": "exe"
+        },
+        "requirements": {
+          "minWindowsBuild": 17763,
+          "architectures": [
+            "x64"
+          ]
+        },
+        "install": {
+          "executable": "{LocalAppData}\\CaptureStudio\\Capture Studio.exe",
+          "requiresElevation": false,
+          "uninstallDisplayName": "Capture Studio",
+          "createShortcut": true,
+          "timeoutMinutes": 20
+        }
+      }
+    },
+    {
+      "id": "gamehub",
+      "name": "GameHub",
+      "tagline": "One fast library for all your Steam, Epic, Riot, Ubisoft and GOG games.",
+      "description": "A fast, low-resource game launcher. One library for Steam, Epic Games, Riot Games, Ubisoft Connect and GOG games plus anything you add yourself, with automatic playtime tracking, per-game profiles that are always undone afterwards, a lightweight in-game performance overlay and playtime statistics.",
+      "category": "Games",
+      "tags": [
+        "games",
+        "launcher",
+        "library",
+        "playtime"
+      ],
+      "accentColor": "#3DBFA8",
+      "featured": true,
+      "latest": {
+        "version": "1.0.1",
+        "releaseDate": "2026-10-29T20:59:07+00:00",
+        "releaseNotes": "GameHub 1.0.1",
+        "package": {
+          "url": "https://github.com/NeonNuub/Gamehub-releases/releases/download/v1.0.1/GameHub-win-Setup.exe",
+          "size": 47003935,
+          "sha256": "24aef362d35b96a9bd5595ffe72a517ac1c427aa6c86777f90f047f3e906da22",
+          "type": "exe"
+        },
+        "requirements": {
+          "minWindowsBuild": 17763,
+          "architectures": [
+            "x64"
+          ]
+        },
+        "install": {
+          "executable": "{LocalAppData}\\GameHub\\GameHub.exe",
+          "requiresElevation": false,
+          "uninstallDisplayName": "GameHub",
+          "createShortcut": true,
+          "timeoutMinutes": 20
+        }
+      }
+    },
+    {
+      "id": "lumen",
+      "name": "Lumen",
+      "tagline": "Video, image and YouTube wallpapers that pause when you can\u0027t see them.",
+      "description": "A lightweight wallpaper engine. Set images, videos and YouTube clips as your desktop wallpaper, keep them all in a library, and switch any time. Smart Pause stops playback for games, fullscreen apps and battery, and deep sleep drops memory to near zero. Multi-monitor, profiles, slideshow and global hotkeys.",
+      "category": "Personalization",
+      "tags": [
+        "wallpaper",
+        "video wallpaper",
+        "desktop"
+      ],
+      "accentColor": "#9A7BFF",
+      "featured": false,
+      "latest": {
+        "version": "1.0.3",
+        "releaseDate": "2026-10-29T16:51:41+00:00",
+        "releaseNotes": "Lumen 1.0.3",
+        "package": {
+          "url": "https://github.com/NeonNuub/lumen-releases/releases/download/v1.0.3/Lumen-win-Setup.exe",
+          "size": 116348100,
+          "sha256": "15f5297ec6b473815d495e90783a472880c32979d170ed7203ac9cee9d26b46f",
+          "type": "exe"
+        },
+        "requirements": {
+          "minWindowsBuild": 17763,
+          "architectures": [
+            "x64"
+          ]
+        },
+        "install": {
+          "executable": "{LocalAppData}\\Lumen\\Lumen.exe",
+          "requiresElevation": false,
+          "uninstallDisplayName": "Lumen",
+          "createShortcut": true,
+          "timeoutMinutes": 20
+        }
+      }
+    }
+  ]
+}
