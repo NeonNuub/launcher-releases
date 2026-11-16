@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "serial": 10,
-  "generatedAt": "2026-11-16T21:43:59.6438003+00:00",
+  "serial": 11,
+  "generatedAt": "2026-11-16T22:12:54.9928748+00:00",
   "publisher": "NeonNuub",
   "apps": [
     {
@@ -56,13 +56,13 @@
       "accentColor": "#F0607A",
       "featured": true,
       "latest": {
-        "version": "0.7.0",
-        "releaseDate": "2026-11-16T21:43:45+00:00",
-        "releaseNotes": "Capture Studio 0.7.0",
+        "version": "0.7.1",
+        "releaseDate": "2026-11-16T22:12:36+00:00",
+        "releaseNotes": "Capture Studio 0.7.1",
         "package": {
-          "url": "https://github.com/NeonNuub/Recording-releases/releases/download/v0.7.0/CaptureStudio-win-Setup.exe",
-          "size": 42432181,
-          "sha256": "015f843178bab654c5f4e8b6fd3d208cdd1e16634127fdcb2cf4132c3d8b7a58",
+          "url": "https://github.com/NeonNuub/Recording-releases/releases/download/v0.7.1/CaptureStudio-win-Setup.exe",
+          "size": 42433473,
+          "sha256": "ca1269f1d3976acc4955168d8a12d8ba4e7cfd6e05aed664de530f5069f38be6",
           "type": "exe"
         },
         "requirements": {
