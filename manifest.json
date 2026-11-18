@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "serial": 15,
-  "generatedAt": "2026-11-16T23:56:38.5880924+00:00",
+  "serial": 17,
+  "generatedAt": "2026-11-18T22:15:33.7647721+00:00",
   "publisher": "NeonNuub",
   "apps": [
     {
@@ -152,6 +152,45 @@
           "executable": "{LocalAppData}\\Lumen\\Lumen.exe",
           "requiresElevation": false,
           "uninstallDisplayName": "Lumen",
+          "createShortcut": true,
+          "timeoutMinutes": 20
+        }
+      }
+    },
+    {
+      "id": "fluxboard",
+      "name": "Fluxboard",
+      "tagline": "Draw, highlight and point on top of anything on your screen.",
+      "description": "A smartboard-style screen annotation overlay. A small dockable tool island gives you a pen, highlighter, eraser, laser pointer, shapes and selection that draw over any app, with click-through cursor mode, global shortcuts, whiteboard/blackboard backgrounds, multi-monitor support and screenshots.",
+      "category": "Productivity",
+      "tags": [
+        "whiteboard",
+        "annotation",
+        "drawing",
+        "presentation"
+      ],
+      "accentColor": "#F76B15",
+      "featured": true,
+      "latest": {
+        "version": "1.0.0",
+        "releaseDate": "2026-11-18T22:15:23+00:00",
+        "releaseNotes": "Fluxboard 1.0.0",
+        "package": {
+          "url": "https://github.com/NeonNuub/fluxboard-releases/releases/download/v1.0.0/Fluxboard-win-Setup.exe",
+          "size": 80373874,
+          "sha256": "41f14bd828b035d258360863cc17fd7ec065b741b6b49d80de131e2613ccbc5a",
+          "type": "exe"
+        },
+        "requirements": {
+          "minWindowsBuild": 17763,
+          "architectures": [
+            "x64"
+          ]
+        },
+        "install": {
+          "executable": "{LocalAppData}\\Fluxboard\\Fluxboard.exe",
+          "requiresElevation": false,
+          "uninstallDisplayName": "Fluxboard",
           "createShortcut": true,
           "timeoutMinutes": 20
         }
