@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "serial": 17,
-  "generatedAt": "2026-11-18T22:15:33.7647721+00:00",
+  "serial": 18,
+  "generatedAt": "2026-11-18T23:13:50.1765316+00:00",
   "publisher": "NeonNuub",
   "apps": [
     {
@@ -172,13 +172,13 @@
       "accentColor": "#F76B15",
       "featured": true,
       "latest": {
-        "version": "1.0.0",
-        "releaseDate": "2026-11-18T22:15:23+00:00",
-        "releaseNotes": "Fluxboard 1.0.0",
+        "version": "1.0.1",
+        "releaseDate": "2026-11-18T23:13:37+00:00",
+        "releaseNotes": "Fluxboard 1.0.1",
         "package": {
-          "url": "https://github.com/NeonNuub/fluxboard-releases/releases/download/v1.0.0/Fluxboard-win-Setup.exe",
-          "size": 80373874,
-          "sha256": "41f14bd828b035d258360863cc17fd7ec065b741b6b49d80de131e2613ccbc5a",
+          "url": "https://github.com/NeonNuub/fluxboard-releases/releases/download/v1.0.1/Fluxboard-win-Setup.exe",
+          "size": 80517366,
+          "sha256": "5907ad412ee1ac69e7625fc1ace1943baee07883bc3573116a007d2d99f9fc34",
           "type": "exe"
         },
         "requirements": {
