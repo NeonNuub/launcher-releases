@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "serial": 18,
-  "generatedAt": "2026-11-18T23:13:50.1765316+00:00",
+  "serial": 20,
+  "generatedAt": "2026-11-22T23:52:03.9044723+00:00",
   "publisher": "NeonNuub",
   "apps": [
     {
@@ -191,6 +191,45 @@
           "executable": "{LocalAppData}\\Fluxboard\\Fluxboard.exe",
           "requiresElevation": false,
           "uninstallDisplayName": "Fluxboard",
+          "createShortcut": true,
+          "timeoutMinutes": 20
+        }
+      }
+    },
+    {
+      "id": "fluxcode",
+      "name": "FluxCode",
+      "tagline": "Make games and animations with blocks, then export them as Windows apps.",
+      "description": "A block-based game maker. Snap blocks together, paint costumes, edit sounds and press the green flag. Includes custom blocks, lists and dictionaries, physics, a debugger and profiler, a text code view, and one-click export of your game as a standalone .exe.",
+      "category": "Creativity",
+      "tags": [
+        "coding",
+        "games",
+        "blocks",
+        "education"
+      ],
+      "accentColor": "#855CD6",
+      "featured": true,
+      "latest": {
+        "version": "1.0.0",
+        "releaseDate": "2026-11-22T23:51:50+00:00",
+        "releaseNotes": "FluxCode 1.0.0",
+        "package": {
+          "url": "https://github.com/NeonNuub/fluxcode-releases/releases/download/v1.0.0/FluxCode-win-Setup.exe",
+          "size": 14355608,
+          "sha256": "863e595c94f94894a28aab7431acf8879859481c7d60a2c51de33cf4591cf54e",
+          "type": "exe"
+        },
+        "requirements": {
+          "minWindowsBuild": 17763,
+          "architectures": [
+            "x64"
+          ]
+        },
+        "install": {
+          "executable": "{LocalAppData}\\FluxCode\\FluxCode.exe",
+          "requiresElevation": false,
+          "uninstallDisplayName": "FluxCode",
           "createShortcut": true,
           "timeoutMinutes": 20
         }
