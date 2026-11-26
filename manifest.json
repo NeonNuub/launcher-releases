@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "serial": 39,
-  "generatedAt": "2026-11-25T23:30:28.6635552+00:00",
+  "serial": 40,
+  "generatedAt": "2026-11-26T00:06:53.6581014+00:00",
   "publisher": "NeonNuub",
   "apps": [
     {
@@ -211,13 +211,13 @@
       "accentColor": "#855CD6",
       "featured": true,
       "latest": {
-        "version": "1.7.6",
-        "releaseDate": "2026-11-25T23:30:20+00:00",
-        "releaseNotes": "FluxCode 1.7.6",
+        "version": "1.7.7",
+        "releaseDate": "2026-11-26T00:06:46+00:00",
+        "releaseNotes": "FluxCode 1.7.7",
         "package": {
-          "url": "https://github.com/NeonNuub/fluxcode-releases/releases/download/v1.7.6/FluxCode-win-Setup.exe",
-          "size": 16244862,
-          "sha256": "f1380af427cf1a47a31bbd03bf7add135d935fb5c4f3c1d187d8beca14bbd061",
+          "url": "https://github.com/NeonNuub/fluxcode-releases/releases/download/v1.7.7/FluxCode-win-Setup.exe",
+          "size": 16251011,
+          "sha256": "0335c17f0a10e64fbf465b77fa2dea2d61f20eea9873fa0cbf1e712c4264d44f",
           "type": "exe"
         },
         "requirements": {
